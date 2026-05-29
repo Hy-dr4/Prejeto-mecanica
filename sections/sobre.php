@@ -26,6 +26,9 @@
             <h3>Equipe Especializada</h3>
             <p>Profissionais com anos de experiência</p>
         </div>
-        
+</div>
+
+</section>
+
 
 
