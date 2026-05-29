@@ -1,4 +1,4 @@
-<section class="hero"> 
+<section class="servicos" id="servicos"> 
         <span class="tag">
            NOSSOS SERVIÇOS
         </span>
