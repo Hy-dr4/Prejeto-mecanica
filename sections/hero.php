@@ -21,6 +21,9 @@
         <a href="https://api.whatsapp.com/send/?phone=5500000000000&text&type=phone_number&app_absent=0" class="btn">
             Agende Agora
         </a>
+        <a href="#servicos" class="btn">
+            Conheça Nossos Serviços
+        </a>
 
     </div>
 
