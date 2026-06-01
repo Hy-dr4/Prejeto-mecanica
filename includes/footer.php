@@ -14,11 +14,23 @@
 
             <div class="social-links">
 
-                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
 
-                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
 
-                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                <a href="#">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+
+                </div>
 
             </div>
 
@@ -36,10 +48,6 @@
                 <li><a href="#sobre">Sobre Nós</a></li>
 
                 <li><a href="#contato">Contato</a></li>
-
-                <li><a href="#">Blog</a></li>
-
-                <li><a href="#">Trabalhe Conosco</a></li>
 
             </ul>
 
@@ -72,16 +80,25 @@
             <h4>Contato</h4>
 
             <ul>
+                <li>
+                     <i class="fa-solid fa-phone"></i>
+                    (11) 99999-9999
+                 </li>
 
-                <li>📍 Rua Exemplo, 123 - Centro</li>
+                <li>
+                     <i class="fa-solid fa-location-dot"></i>
+                    Rua Exemplo, 123
+                </li>
 
-                <li>📞 (00) 0000-0000</li>
+                <li>
+                    <i class="fa-solid fa-envelope"></i>
+                    contato@empresa.com.br
+                </li>
 
-                <li>✉️ contato@oficina.com.br</li>
-
-                <li>🕒 Seg-Sex: 8h às 18h</li>
-
-                <li>Sábado: 8h às 13h</li>
+                <li>
+                   <i class="fa-regular fa-clock"></i>
+                    Seg-Sex: 08h às 18h
+                </li>
 
             </ul>
 
