@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
  E-mail: ${email}
  Veículo: ${veiculo}
 
-📝 Mensagem:
+Mensagem:
 ${mensagem}`;
 
         const textoCodificado = encodeURIComponent(texto);
