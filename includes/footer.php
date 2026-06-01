@@ -1,5 +1,110 @@
-<footer>
-    <!-- conteúdo -->
+<footer class="footer">
+
+    <div class="footer-container">
+
+        <!-- Empresa -->
+        <div class="footer-col">
+
+            <h3 class="footer-logo">Oficina Premium</h3>
+
+            <p>
+                Especialistas em veículos nacionais e importados há mais de 15 anos.
+                Tecnologia, qualidade e confiança em cada serviço.
+            </p>
+
+            <div class="social-links">
+
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+
+            </div>
+
+        </div>
+
+        <!-- Links -->
+        <div class="footer-col">
+
+            <h4>Links Rápidos</h4>
+
+            <ul>
+
+                <li><a href="#servicos">Nossos Serviços</a></li>
+
+                <li><a href="#sobre">Sobre Nós</a></li>
+
+                <li><a href="#contato">Contato</a></li>
+
+                <li><a href="#">Blog</a></li>
+
+                <li><a href="#">Trabalhe Conosco</a></li>
+
+            </ul>
+
+        </div>
+
+        <!-- Serviços -->
+        <div class="footer-col">
+
+            <h4>Principais Serviços</h4>
+
+            <ul>
+
+                <li>Manutenção Preventiva</li>
+
+                <li>Motor e Câmbio</li>
+
+                <li>Sistema Elétrico</li>
+
+                <li>Ar Condicionado</li>
+
+                <li>Veículos Importados</li>
+
+            </ul>
+
+        </div>
+
+        <!-- Contato -->
+        <div class="footer-col">
+
+            <h4>Contato</h4>
+
+            <ul>
+
+                <li>📍 Rua Exemplo, 123 - Centro</li>
+
+                <li>📞 (00) 0000-0000</li>
+
+                <li>✉️ contato@oficina.com.br</li>
+
+                <li>🕒 Seg-Sex: 8h às 18h</li>
+
+                <li>Sábado: 8h às 13h</li>
+
+            </ul>
+
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+
+        <p>
+            © 2026 Oficina Premium. Todos os direitos reservados.
+        </p>
+
+        <div class="footer-legal">
+
+            <a href="#">Política de Privacidade</a>
+
+            <a href="#">Termos de Uso</a>
+
+        </div>
+
+    </div>
+
 </footer>
 
 <script src="assets/js/script.js"></script>

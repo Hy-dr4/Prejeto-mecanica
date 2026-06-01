@@ -7,6 +7,7 @@
     <title>Mecânica DB</title>
 
     <link rel="stylesheet" href="assets/css/estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 
 <body>
@@ -23,7 +24,7 @@
         <ul2>
             <li><h1>(00) 0000-0000</h1></li>
             <li><a href="https://api.whatsapp.com/send/?phone=5500000000000&text&type=phone_number&app_absent=0" target="_blank">
-                WhatsApp
+                <i class="fab fa-whatsapp"></i> WhatsApp
             </a></li>
         </ul2>
     </nav>

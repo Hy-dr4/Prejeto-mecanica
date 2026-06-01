@@ -5,41 +5,74 @@
         <div class="contato-grid">
 
             <!-- Lado esquerdo -->
-            <div class="info-contato">
+           <div class="info-contato">
 
-                <h2>Informações de Contato</h2>
+    <h2>Informações de Contato</h2>
+
+    <article class="info-item">
+
+        <div class="icone">
+            <i class="fa-brands fa-whatsapp"></i>
+        </div>
+
+        <div>
+            <h3>WhatsApp</h3>
+            <p>(11) 99999-9999</p>
+        </div>
+
+    </article>
+
+    <article class="info-item">
+
+                <div class="icone">
+                    <i class="fa-solid fa-phone"></i>
+                </div>
+
+                <div>
+                    <h3>Telefone</h3>
+                    <p>(11) 3333-4444</p>
+                </div>
+
+              </article>
 
                 <article class="info-item">
-                    <div class="icone"></div>
-                    <div>
-                        <h3>WhatsApp</h3>
-                        <p>(00) 00000-0000</p>
-                    </div>
+
+                <div class="icone">
+                    <i class="fa-solid fa-envelope"></i>
+                </div>
+
+                <div>
+                    <h3>E-mail</h3>
+                    <p>contato@empresa.com.br</p>
+                </div>
+
                 </article>
 
                 <article class="info-item">
-                    <div class="icone"></div>
-                    <div>
-                        <h3>Telefone</h3>
-                        <p>(00) 0000-0000</p>
-                    </div>
+
+                <div class="icone">
+                    <i class="fa-solid fa-location-dot"></i>
+                </div>
+
+                <div>
+                    <h3>Endereço</h3>
+                    <p>Rua Exemplo, 123 - Centro</p>
+                </div>
+
                 </article>
 
                 <article class="info-item">
-                    <div class="icone"></div>
-                    <div>
-                        <h3>E-mail</h3>
-                        <p>contato@empresa.com</p>
-                    </div>
-                </article>
 
-                <article class="info-item">
-                    <div class="icone"></div>
-                    <div>
-                        <h3>Endereço</h3>
-                        <p>Rua Exemplo, 123</p>
-                    </div>
-                </article>
+                <div class="icone">
+                    <i class="fa-regular fa-clock"></i>
+                </div>
+
+                <div>
+                    <h3>Horário</h3>
+                    <p>Seg-Sex: 08h às 18h</p>
+                </div>
+
+             </article>
 
             </div>
 
@@ -66,6 +99,7 @@
                 <textarea id="mensagem" name="mensagem"></textarea>
 
                 <button type="button" id="btn-whatsapp">
+                    <i class="fa-brands fa-whatsapp"></i>
                     Enviar Mensagem
                 </button>
 
