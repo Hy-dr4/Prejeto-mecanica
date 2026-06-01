@@ -12,10 +12,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const texto = `Olá! Gostaria de entrar em contato.
 
-👤 Nome: ${nome}
-📞 Telefone: ${telefone}
-📧 E-mail: ${email}
-🚗 Veículo: ${veiculo}
+ Nome: ${nome}
+ Telefone: ${telefone}
+ E-mail: ${email}
+ Veículo: ${veiculo}
 
 📝 Mensagem:
 ${mensagem}`;
