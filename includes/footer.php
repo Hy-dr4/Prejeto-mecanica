@@ -107,6 +107,8 @@
 
             </div>
     </div>
+</footer>
+
 
     <div class="footer-bottom">
 
@@ -124,7 +126,6 @@
 
     </div>
 
-</footer>
 
 <script src="assets/js/script.js"></script>
 
