@@ -945,17 +945,14 @@ body{
 /* ==========================
    INFO SOBRE
 ========================== */
-.info-sobre{
-
+.info-sobre {
     display: grid;
-
-    grid-template-columns: repeat(2, minmax(250px, 1fr));
-
+    /* Força exatamente 2 colunas de tamanho igual */
+    grid-template-columns: 1fr 1fr; 
     gap: 35px 40px;
-
     margin-top: 50px;
-
 }
+
 /* ==========================
    ITEM SOBRE
 ========================== */
@@ -1050,20 +1047,14 @@ body{
 
 }
 
-@media (max-width: 768px){
-
-    .sobre-conteudo h2{
-
+@media (max-width: 768px) {
+    .sobre-conteudo h2 {
         font-size: 2.5rem;
-
     }
-
-    .info-sobre{
-
-        grid-template-columns: 1fr;
-
+    .info-sobre {
+        /* No mobile, mantém 1 coluna */
+        grid-template-columns: 1fr; 
     }
-
 }
 
 /* ==========================
