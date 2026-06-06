@@ -1065,39 +1065,32 @@ body{
 ========================== */
 
 .contato {
+    width: 100%; /* Garante que o fundo escuro ocupe toda a largura */
+    padding: 100px 20px;
+    background-color: #08101f; /* Cor do fundo escuro */
+}
+
+/* O container agora centraliza o card branco */
+.contato .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 100px 20px;
-    background:  #08101f;;
+    background: #ffffff; /* Fundo do card */
+    padding: 60px;
+    border-radius: 20px;
 }
 
 .contato-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr; /* Divide o espaço igualmente */
-    gap: 80px;
-    align-items: flex-start;
-}
-.contato .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    background: #ffffff;
-    padding: 80px; /* Aumentei de 60px para 80px */
-    border-radius: 20px;
-    display: grid; /* Se já não estiver, isso ajuda a alinhar os dois lados */
     grid-template-columns: 1fr 1fr;
-    gap: 60px;
+    gap: 80px;
+    align-items: start;
 }
 
 /* --- ESTILOS DO LADO ESQUERDO --- */
-
 .info-contato h2 {
     font-size: 2rem;
     margin-bottom: 40px;
     color: #111827;
-}
-.info-contato h2, 
-.formulario-contato h2 {
-    color: #111827; /* Mantém títulos escuros, pois agora estão no card branco */
 }
 
 .info-item {
@@ -1117,6 +1110,7 @@ body{
     align-items: center;
     justify-content: center;
     font-size: 1.4rem;
+    flex-shrink: 0;
 }
 
 .info-item h3 {
@@ -1131,7 +1125,6 @@ body{
 }
 
 /* --- ESTILOS DO LADO DIREITO (FORMULÁRIO) --- */
-
 .formulario-contato h2 {
     font-size: 2rem;
     margin-bottom: 30px;
@@ -1142,15 +1135,13 @@ body{
     display: flex;
     flex-direction: column;
     gap: 15px;
-    background: #f9fafb;
-    padding: 30px;
-    border-radius: 15px;
 }
 
 #formContato label {
     font-weight: 600;
     font-size: 0.9rem;
     color: #374151;
+    margin-bottom: -10px;
 }
 
 #formContato input, 
@@ -1159,17 +1150,13 @@ body{
     border: 1px solid #d1d5db;
     border-radius: 8px;
     font-size: 1rem;
+    background-color: #f9fafb;
+    color: #111827;
 }
 
 #formContato textarea {
     height: 100px;
     resize: vertical;
-}
-#formContato input, 
-#formContato textarea {
-    background-color: #f9fafb; /* Cinza bem claro para destacar no fundo branco */
-    border: 1px solid #d1d5db;
-    color: #111827;
 }
 
 #btn-whatsapp {
@@ -1193,10 +1180,9 @@ body{
 }
 
 /* --- RESPONSIVIDADE --- */
-
-@media (max-width: 768px) {
+@media (max-width: 992px) {
     .contato-grid {
-        grid-template-columns: 1fr; /* Empilha no mobile */
+        grid-template-columns: 1fr;
         gap: 50px;
     }
 }
