@@ -1068,7 +1068,6 @@ body{
     width: 100%; /* Garante que o fundo escuro ocupe toda a largura */
     background-color: #08101f;
     padding: 100px 20px;
-    border-bottom: 1px solid rgba(255,255,255,.08);
 
 }
 
