@@ -1237,12 +1237,15 @@ body{
 ========================== */
 
 .footer {
- margin-top: 60px;
-    padding-top: 60px;
-    background: linear-gradient(to right, transparent, rgba(255,255,255,0.1), transparent);
-    background-size: 100% 1px;
-    background-repeat: no-repeat;
-    background-position: top;
+ background-color: #08101f;
+    color: #ffffff;
+    padding: 60px 20px 20px;
+    
+    /* Linha divisória sutil no topo */
+    border-top: 1px solid #1f2937; 
+    
+    /* Espaçamento superior para separar do conteúdo acima */
+    margin-top: 60px;
 }
 
 .footer-container {
