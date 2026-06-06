@@ -1245,12 +1245,13 @@ body{
 .footer-container {
     max-width: 1200px;
     margin: 0 auto;
+    padding: 0 20px;
     display: grid;
-    /* Define as 4 colunas com tamanhos proporcionais */
-    grid-template-columns: 2fr 1fr 1fr 1fr;
-    gap: 40px;
-    margin-bottom: 50px;
+    /* Isso cria as 4 colunas automaticamente */
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 30px;
 }
+
 
 .footer-col h3, .footer-col h4 {
     color: #ffffff;
