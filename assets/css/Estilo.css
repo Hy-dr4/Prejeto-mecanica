@@ -1237,13 +1237,12 @@ body{
 ========================== */
 
 .footer {
-    background: #08101f;
-    color: #ffffff;
-    padding: 60px 20px 20px;
-    border-top: 1px solid #1f2937; /* Cor cinza grafite leve */
-    margin-top: 80px;              /* Espaçamento para o footer não ficar colado */
-    padding-top: 60px;   
-    /* Adiciona a linha de separação no topo do footer */
+ margin-top: 60px;
+    padding-top: 60px;
+    background: linear-gradient(to right, transparent, rgba(255,255,255,0.1), transparent);
+    background-size: 100% 1px;
+    background-repeat: no-repeat;
+    background-position: top;
 }
 
 .footer-container {
