@@ -1074,8 +1074,8 @@ body{
 .contato .container {
     max-width: 1200px;
     margin: 0 auto;
-    background: #ffffff; /* Fundo do card */
-    padding: 60px;
+    background: transparent !important;
+    padding: 0;
     border-radius: 20px;
 }
 
@@ -1129,6 +1129,14 @@ body{
     font-size: 2rem;
     margin-bottom: 30px;
     color: #111827;
+}
+
+.info-contato, 
+.formulario-contato {
+    background: #ffffff; /* Fundo branco dos blocos */
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15); /* Efeito de sombra */
 }
 
 #formContato {
