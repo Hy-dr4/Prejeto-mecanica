@@ -1098,7 +1098,6 @@ body{
     background: #08101f; /* Fundo escuro */
     padding: 20px;
     border-radius: 12px;
-    border: 1px solid #1f2937; /* Borda bem leve para destacar no fundo */
     display: flex;
     align-items: center;
     gap: 20px;
@@ -1125,6 +1124,7 @@ body{
 }
 
 .info-item p {
+    color: #9ca3af; /* Um cinza claro para não ficar tão "gritante" */
     font-size: 0.95rem;
 }
 
