@@ -1060,3 +1060,127 @@ body{
 /* ==========================
    FIM DA SEÇÃO SOBRE
 ========================== */
+/* ==========================
+   INÍCIO DA SEÇÃO CONTATO
+========================== */
+
+.contato {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 100px 20px;
+    background: #ffffff;
+}
+
+.contato-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Divide o espaço igualmente */
+    gap: 80px;
+    align-items: flex-start;
+}
+
+/* --- ESTILOS DO LADO ESQUERDO --- */
+
+.info-contato h2 {
+    font-size: 2rem;
+    margin-bottom: 40px;
+    color: #111827;
+}
+
+.info-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.info-item .icone {
+    width: 50px;
+    height: 50px;
+    background: rgba(255, 0, 0, 0.08);
+    color: #ff0000;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+}
+
+.info-item h3 {
+    font-size: 1.1rem;
+    color: #111827;
+    margin-bottom: 4px;
+}
+
+.info-item p {
+    color: #4b5563;
+    font-size: 0.95rem;
+}
+
+/* --- ESTILOS DO LADO DIREITO (FORMULÁRIO) --- */
+
+.formulario-contato h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #111827;
+}
+
+#formContato {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background: #f9fafb;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+#formContato label {
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: #374151;
+}
+
+#formContato input, 
+#formContato textarea {
+    padding: 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+#formContato textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+#btn-whatsapp {
+    background-color: #ff0000;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 1rem;
+    transition: background 0.3s;
+}
+
+#btn-whatsapp:hover {
+    background-color: #cc0000;
+}
+
+/* --- RESPONSIVIDADE --- */
+
+@media (max-width: 768px) {
+    .contato-grid {
+        grid-template-columns: 1fr; /* Empilha no mobile */
+        gap: 50px;
+    }
+}
+
+/* ==========================
+   FIM DA SEÇÃO CONTATO
+========================== */
