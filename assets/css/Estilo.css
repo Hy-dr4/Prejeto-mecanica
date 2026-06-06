@@ -894,7 +894,7 @@ body{
 
 .sobre-conteudo{
 
-    color: #fff;
+    color: #000000;
 
 }
 
@@ -924,7 +924,7 @@ body{
 
 .sobre-conteudo p{
 
-    color: rgba(255,255,255,.8);
+    color: rgba(0, 0, 0, 0.8);
 
     line-height: 1.8;
 
@@ -988,7 +988,7 @@ body{
 
     margin-bottom: 8px;
 
-    color: #fff;
+    color: #0e0d0d;
 
 }
 
