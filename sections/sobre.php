@@ -22,7 +22,7 @@
                 Atendemos desde veículos populares até modelos premium e importados, sempre com o mesmo compromisso: qualidade excepcional, transparência total e a confiança que você e sua família merecem.
             </p>
 
-            <div class="item-sobre">
+           <div class="info-sobre">
                     <div class="item-sobre">
                     <div class="icone-sobre">
                         <i class="fa-solid fa-clock"></i>
