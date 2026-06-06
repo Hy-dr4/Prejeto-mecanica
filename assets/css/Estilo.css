@@ -1243,6 +1243,18 @@ body{
 
     padding: 60px 20px 20px;
 
+}
+
+/* ==========================
+   LINHA SUPERIOR DO FOOTER
+========================== */
+
+.footer-top-line{
+
+    max-width: 1200px;
+
+    margin: 0 auto 60px;
+
     border-top: 1px solid rgba(255,255,255,.08);
 
 }

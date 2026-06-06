@@ -1,4 +1,5 @@
 <footer class="footer">
+     <div class="footer-top-line"></div>
     <div class="footer-container">
         
         <div class="footer-col">
