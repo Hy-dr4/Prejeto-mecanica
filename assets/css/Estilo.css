@@ -1066,8 +1066,9 @@ body{
 
 .contato {
     width: 100%; /* Garante que o fundo escuro ocupe toda a largura */
+
+  background-color: #08101f;
     padding: 100px 20px;
-    background-color: #08101f; /* Cor do fundo escuro */
 }
 
 /* O container agora centraliza o card branco */
@@ -1090,7 +1091,7 @@ body{
 .info-contato h2 {
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 30px;
 }
 
 .info-item {
@@ -1150,10 +1151,13 @@ body{
 
 .info-contato, 
 .formulario-contato {
-    background: #ffffff; /* Fundo branco dos blocos */
+  background: #ffffff; /* Fundo do card */
     padding: 40px;
     border-radius: 20px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15); /* Efeito de sombra */
+    /* Adicionando uma sombra bem leve para destacar sobre o fundo azul escuro */
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1); 
+    display: flex;
+    flex-direction: column;
 }
 
 #formContato {
@@ -1207,10 +1211,10 @@ body{
 /* --- RESPONSIVIDADE --- */
 @media (max-width: 992px) {
     .contato-grid {
-        grid-template-columns: 1fr;
-        gap: 50px;
+        grid-template-columns: 1fr; 
     }
 }
+
 
 /* ==========================
    FIM DA SEÇÃO CONTATO
