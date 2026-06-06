@@ -15,14 +15,17 @@
     </p>
     <div class="info-sobre">
 
-        <div class="item-sobre">
-            <img src="assets/img/certificado.jpg" alt="Certificados">
+             
+                <div class="icone-sobre">
+                    <i class="fa-solid fa-clock"></i>
+                </div>
             <h3>Certificados</h3>
             <p>Técnicos certificados e treinamento contínuo</p>
         </div>
 
-        <div class="item-sobre">
-            <img src ="assets/img/equipe.jpg" alt="Equipe Especializada">
+       <div class="icone-sobre">
+                    <i class="fa-solid fa-shield"></i>
+                </div>
             <h3>Equipe Especializada</h3>
             <p>Profissionais com anos de experiência</p>
         </div>

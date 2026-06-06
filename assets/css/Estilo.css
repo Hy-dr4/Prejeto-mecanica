@@ -850,3 +850,174 @@ body{
 /* ==========================
    FIM DOS DIFERENCIAIS
 ========================== */
+/* ==========================
+   SOBRE NÓS
+========================== */
+
+.sobre {
+
+    background: #08101f;
+
+    padding: 100px 20px;
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    gap: 60px;
+
+    align-items: center;
+
+}
+
+/* ==========================
+   IMAGEM
+========================== */
+
+.sobre-imagem img {
+
+    width: 100%;
+
+    height: 750px;
+
+    object-fit: cover;
+
+    border-radius: 12px;
+
+}
+
+/* ==========================
+   CONTEÚDO
+========================== */
+
+.sobre-conteudo {
+
+    color: #ffffff;
+
+}
+
+.tag-sobre {
+
+    color: #ff0000;
+
+    font-weight: 700;
+
+    font-size: .9rem;
+
+    letter-spacing: 2px;
+
+}
+
+.sobre-conteudo h2 {
+
+    font-size: 3.5rem;
+
+    line-height: 1.1;
+
+    margin: 20px 0 30px;
+
+}
+
+.sobre-conteudo p {
+
+    color: rgba(255,255,255,.80);
+
+    line-height: 1.8;
+
+    margin-bottom: 25px;
+
+    font-size: 1.1rem;
+
+}
+
+/* ==========================
+   DIFERENCIAIS
+========================== */
+
+.info-sobre {
+
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 30px;
+
+    margin-top: 50px;
+
+}
+
+/* ==========================
+   ITEM
+========================== */
+
+.item-sobre {
+
+    display: flex;
+
+    align-items: flex-start;
+
+    gap: 15px;
+
+}
+
+/* ==========================
+   ÍCONE
+========================== */
+
+.icone-sobre {
+
+    width: 50px;
+
+    height: 50px;
+
+    background: rgba(255,0,0,.1);
+
+    border-radius: 12px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    flex-shrink: 0;
+
+}
+
+.icone-sobre i {
+
+    color: #ff0000;
+
+    font-size: 1.2rem;
+
+}
+
+/* ==========================
+   TEXTO DOS ITENS
+========================== */
+
+.item-sobre h3 {
+
+    color: #ffffff;
+
+    margin-bottom: 8px;
+
+    font-size: 1.2rem;
+
+}
+
+.item-sobre p {
+
+    color: rgba(255,255,255,.70);
+
+    margin: 0;
+
+    line-height: 1.6;
+
+    font-size: .95rem;
+
+}
+
+/* ==========================
+   FIM DA SEÇÃO SOBRE
+========================== */
