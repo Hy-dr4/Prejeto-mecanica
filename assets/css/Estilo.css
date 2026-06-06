@@ -1169,9 +1169,6 @@ body{
 .formulario-contato {
   background: #08101f; /* Fundo do card */
     padding: 40px;
-    border-radius: 20px;
-    /* Adicionando uma sombra bem leve para destacar sobre o fundo azul escuro */
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1); 
     display: flex;
     flex-direction: column;
 }
