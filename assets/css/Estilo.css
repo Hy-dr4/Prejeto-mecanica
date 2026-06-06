@@ -1077,6 +1077,13 @@ body{
     gap: 80px;
     align-items: flex-start;
 }
+.contato .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background: #ffffff; /* Fundo branco para os cards */
+    padding: 60px;
+    border-radius: 20px;
+}
 
 /* --- ESTILOS DO LADO ESQUERDO --- */
 
@@ -1084,6 +1091,10 @@ body{
     font-size: 2rem;
     margin-bottom: 40px;
     color: #111827;
+}
+.info-contato h2, 
+.formulario-contato h2 {
+    color: #111827; /* Mantém títulos escuros, pois agora estão no card branco */
 }
 
 .info-item {
@@ -1150,6 +1161,12 @@ body{
 #formContato textarea {
     height: 100px;
     resize: vertical;
+}
+#formContato input, 
+#formContato textarea {
+    background-color: #f9fafb; /* Cinza bem claro para destacar no fundo branco */
+    border: 1px solid #d1d5db;
+    color: #111827;
 }
 
 #btn-whatsapp {
