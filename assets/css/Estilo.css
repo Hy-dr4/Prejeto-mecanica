@@ -1080,9 +1080,12 @@ body{
 .contato .container {
     max-width: 1200px;
     margin: 0 auto;
-    background: #ffffff; /* Fundo branco para os cards */
-    padding: 60px;
+    background: #ffffff;
+    padding: 80px; /* Aumentei de 60px para 80px */
     border-radius: 20px;
+    display: grid; /* Se já não estiver, isso ajuda a alinhar os dois lados */
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
 }
 
 /* --- ESTILOS DO LADO ESQUERDO --- */
