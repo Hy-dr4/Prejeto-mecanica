@@ -1088,16 +1088,20 @@ body{
 
 /* --- ESTILOS DO LADO ESQUERDO --- */
 .info-contato h2 {
-    font-size: 2rem;
-    margin-bottom: 40px;
-    color: #111827;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
 
 .info-item {
+    background: #08101f; /* Fundo escuro */
+    padding: 20px;
+    border-radius: 12px;
+    border: 1px solid #1f2937; /* Borda bem leve para destacar no fundo */
     display: flex;
     align-items: center;
     gap: 20px;
-    margin-bottom: 30px;
+    transition: 0.3s;
 }
 
 .info-item .icone {
@@ -1114,14 +1118,27 @@ body{
 }
 
 .info-item h3 {
+    color: #ffffff;
     font-size: 1.1rem;
-    color: #111827;
-    margin-bottom: 4px;
+    margin-bottom: 2px;
 }
 
 .info-item p {
-    color: #4b5563;
+    color: #9ca3af; /* Um cinza claro para não ficar tão "gritante" */
     font-size: 0.95rem;
+}
+
+.info-item .icone {
+    background: #ff0000; /* Fundo vermelho no ícone */
+    color: #ffffff; /* Ícone branco */
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    font-size: 1.4rem;
+    flex-shrink: 0;
 }
 
 /* --- ESTILOS DO LADO DIREITO (FORMULÁRIO) --- */
