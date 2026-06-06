@@ -1159,6 +1159,12 @@ body{
     flex-direction: column;
 }
 
+.info-contato-e h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #ffffff;
+}
+
 .info-contato-e, 
 .formulario-contato {
   background: #08101f; /* Fundo do card */
