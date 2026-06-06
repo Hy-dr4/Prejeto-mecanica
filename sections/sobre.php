@@ -41,6 +41,28 @@
                     <p>Profissionais com anos de experiência</p>
                 </div>
             </div>
+
+             <div class="item-sobre">
+                <div class="icone-sobre">
+                    <i class="fa-solid fa-clock"></i>
+                </div>
+
+                <div>
+                    <h3>Atendimento Ágil</h3>
+                    <p>Diagnóstico rápido</p>
+                </div>
+            </div>
+
+            <div class="item-sobre">
+                <div class="icone-sobre">
+                    <i class="fa-solid fa-shield-halved"></i>
+                </div>
+
+                <div>
+                    <h3>Garantia Total</h3>
+                    <p>Serviços garantidos</p>
+                </div>
+            </div>
         </div>
     </div>
 
