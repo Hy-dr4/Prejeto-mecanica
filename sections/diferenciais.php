@@ -28,4 +28,22 @@
             </article>
             </div>
     </div>
+    <div class="estatisticas">
+
+    <div class="card-estatistica">
+        <h2>+15</h2>
+        <p>Anos de Experiência</p>
+    </div>
+
+    <div class="card-estatistica">
+        <h2>+5K</h2>
+        <p>Clientes Satisfeitos</p>
+    </div>
+
+    <div class="card-estatistica">
+        <h2>98%</h2>
+        <p>Taxa de Satisfação</p>
+    </div>
+
+</div>
 </section>
