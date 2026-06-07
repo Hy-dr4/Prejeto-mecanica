@@ -53,7 +53,9 @@
     </div>
 
     <p>Não encontrou o serviço que procura?</p>
-    <a href="#" class="btn">
+    <a href="https://api.whatsapp.com/send/?phone=5500000000000&text&type=phone_number&app_absent=0"
+                target="_blank"
+                class="btn-whatsapp">
         Fale com nossos especialistas
     </a>
 

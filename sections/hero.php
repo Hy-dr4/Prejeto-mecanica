@@ -1,4 +1,4 @@
-<section class="hero">
+<section class="hero" id="inicio">
 
     <div class="hero-overlay"></div>
 
