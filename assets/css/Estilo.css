@@ -29,6 +29,14 @@ body{
 
     border-bottom: 1px solid rgba(255,255,255,.08);
 
+    position: sticky;
+
+    top: 0;
+
+    z-index: 999;
+
+    background: #08101f;
+
 }
 
 /* ==========================
@@ -219,17 +227,10 @@ body{
 .hero {
 
     position: relative;
-    padding-top: 90px;
-
-    position: sticky;
-
-    top: 0;
-
-    z-index: 999;
-
-    background: #08101f;
 
     min-height: 90vh;
+
+    padding-top: 90px;
 
     background-image: url('../img/hero-bg.jpg');
 
