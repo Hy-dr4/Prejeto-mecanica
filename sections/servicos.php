@@ -53,7 +53,7 @@
     </div>
 
     <p>Não encontrou o serviço que procura?</p>
-    <a href="#https://api.whatsapp.com/send/?phone=5500000000000&text&type=phone_number&app_absent=0" 
+    <a href="https://api.whatsapp.com/send/?phone=5500000000000&text&type=phone_number&app_absent=0" 
     class="btn">
         Fale com nossos especialistas
     </a>
