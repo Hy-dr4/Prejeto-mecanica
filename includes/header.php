@@ -19,8 +19,6 @@
             <!-- Logo -->
             <div class="logo">
 
-                <img src="assets/img/logo.png" alt="Mecânica DB">
-
                 <!-- ou apenas texto -->
                 <div class="logo-texto">
                     <h1>Mecânica DB</h1>
