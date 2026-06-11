@@ -1513,3 +1513,256 @@ body{
 /* ==========================
    FIM DO RODAPÉ
 ========================== */
+
+/* ==========================
+   MENU TOGGLE (MOBILE)
+========================== */
+
+.menu-toggle {
+
+    display: none;
+
+    background: transparent;
+
+    border: none;
+
+    color: #ffffff;
+
+    font-size: 1.5rem;
+
+    cursor: pointer;
+
+    padding: 6px 8px;
+
+    line-height: 1;
+
+}
+
+/* ==========================
+   RESPONSIVIDADE — TABLET (≤992px)
+========================== */
+
+@media (max-width: 992px) {
+
+    .hero-content h1 {
+
+        font-size: 3.5rem;
+
+    }
+
+    .estatisticas {
+
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+}
+
+/* ==========================
+   RESPONSIVIDADE — MOBILE (≤768px)
+========================== */
+
+@media (max-width: 768px) {
+
+    /* --- Navbar --- */
+
+    .navbar {
+
+        flex-wrap: wrap;
+
+    }
+
+    .logo {
+
+        flex: 1;
+
+    }
+
+    .nav-links {
+
+        display: none;
+
+        flex-direction: column;
+
+        width: 100%;
+
+        order: 3;
+
+        padding: 10px 0 20px;
+
+        gap: 0;
+
+    }
+
+    .nav-links.open {
+
+        display: flex;
+
+    }
+
+    .nav-links li {
+
+        border-top: 1px solid rgba(255,255,255,.06);
+
+    }
+
+    .nav-links a {
+
+        display: block;
+
+        padding: 14px 0;
+
+    }
+
+    .nav-contato {
+
+        gap: 10px;
+
+    }
+
+    .nav-telefone {
+
+        display: none;
+
+    }
+
+    .menu-toggle {
+
+        display: flex;
+
+        align-items: center;
+
+        justify-content: center;
+
+    }
+
+    /* --- Hero --- */
+
+    .hero {
+
+        min-height: 100vh;
+
+        padding-top: 60px;
+
+    }
+
+    .hero-content h1 {
+
+        font-size: 2.2rem;
+
+    }
+
+    .hero-content p {
+
+        font-size: 1.05rem;
+
+        margin-bottom: 30px;
+
+    }
+
+    .hero-content .btn {
+
+        display: flex;
+
+        width: 100%;
+
+        margin-right: 0;
+
+        margin-bottom: 15px;
+
+        justify-content: center;
+
+    }
+
+    /* --- Serviços --- */
+
+    .servicos h2 {
+
+        font-size: 2rem;
+
+    }
+
+    .servicos-grid {
+
+        grid-template-columns: 1fr;
+
+    }
+
+    /* --- Diferenciais --- */
+
+    .diferenciais h1 {
+
+        font-size: 2rem;
+
+    }
+
+    .estatisticas {
+
+        grid-template-columns: 1fr;
+
+    }
+
+    /* --- Contato --- */
+
+    .contato-grid {
+
+        gap: 40px;
+
+    }
+
+    /* --- Footer --- */
+
+    .footer-container {
+
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+}
+
+/* ==========================
+   RESPONSIVIDADE — MOBILE PEQUENO (≤480px)
+========================== */
+
+@media (max-width: 480px) {
+
+    .hero-content h1 {
+
+        font-size: 1.8rem;
+
+    }
+
+    .logo-texto h1 {
+
+        font-size: 1.2rem;
+
+    }
+
+    .btn-whatsapp {
+
+        padding: 10px 12px;
+
+        font-size: 0.85rem;
+
+    }
+
+    .card-servico,
+    .card-servico-premium {
+
+        padding: 25px;
+
+    }
+
+    .card-estatistica {
+
+        padding: 25px;
+
+    }
+
+    .footer-container {
+
+        grid-template-columns: 1fr;
+
+    }
+
+}

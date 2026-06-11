@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mecânica DB</title>
 
-    <link rel="stylesheet" href="assets/css/estilo.css">
+    <link rel="stylesheet" href="assets/css/Estilo.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 
@@ -40,7 +40,7 @@
             <!-- Contato -->
             <div class="nav-contato">
 
-                <span>
+                <span class="nav-telefone">
                     <i class="fa-solid fa-phone"></i>
                     (00) 0000-0000
                 </span>
@@ -53,6 +53,11 @@
                     WhatsApp
 
                 </a>
+
+                <!-- Hamburger (mobile) -->
+                <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
 
             </div>
 
