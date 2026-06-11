@@ -1,5 +1,31 @@
 document.addEventListener('DOMContentLoaded', () => {
 
+    // Mobile menu toggle
+    const menuToggle = document.getElementById('menuToggle');
+    const navLinks = document.querySelector('.nav-links');
+
+    if (menuToggle && navLinks) {
+
+        menuToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('open');
+            const icon = menuToggle.querySelector('i');
+            if (navLinks.classList.contains('open')) {
+                icon.classList.replace('fa-bars', 'fa-xmark');
+            } else {
+                icon.classList.replace('fa-xmark', 'fa-bars');
+            }
+        });
+
+        navLinks.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('open');
+                const icon = menuToggle.querySelector('i');
+                icon.classList.replace('fa-xmark', 'fa-bars');
+            });
+        });
+
+    }
+
     const botao = document.getElementById('btn-whatsapp');
 
     botao.addEventListener('click', () => {
